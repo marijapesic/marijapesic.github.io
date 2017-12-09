@@ -1,21 +1,242 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Hello, world!</title>
-    <!-- Required meta tags -->
+
+<head>
+    <title>marija pesic</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/marijapesic.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+    .navbar {
+        background-color: #558C89;
+        color: #ECECEA;
+    }
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+    .margin {
+        margin-bottom: 45px;
+        margin-top: 45px;
+    }
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+    footer {
+        margin-top: 45px;
+        height: 90px;
+        padding-top: 45px;
+        background-color: #558C89;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color: #ECECEA; font-size: 25px;">Mari</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#header" style="color: #ECECEA; font-size: 20px;">Who am I?</a></li>
+                    <li><a href="#portfolio" style="color: #ECECEA; font-size: 20px;">Portfolio</a></li>
+                    <li><a href="#abaut" style="color: #ECECEA; font-size: 20px;">Abaut</a></li>
+                    <li><a href="#contact" style="color: #ECECEA; font-size: 20px;">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Who am I? -->
+    <div class="container-fluid text-center" id="whoami" style="background: #74AFAD; color:#ECECEA">
+        <img src="img/80ab1be8ce7d78cdc593d0a6b7ca1e8a--architecture-logo-logo-design-inspiration.jpg" class="img-responsive margin" class="img-responsive img-circle margin" style="display:inline" alt="logo" width="350" height="350">
+        <h1 class="margin"; style="color:black; ">Marija Pesic</h1>
+        <hr class= "star-dark mb-5">
+        <h3 class="margin">Web Developer - The Architect - 3D Visual Designer -  Designer</h3>
+    </div>
+    <!-- portfolio -->
+    <div class="container-fluid text-center" id="portfolio" style="background:#ECECEA; color:#D9853B">
+        <h1 class="margin">POTFOLIO</h1>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+                    <div class="portfolio-item-caption d-flex position-absolute h-50 w-50">
+                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/sliced-lemon-seamless-background_1284-2264.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+                 <div class="portfolio-item-caption d-flex position-absolute h-50 w-50">
+                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/JHJ.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+                    <div class="portfolio-item-caption d-flex position-absolute h-50 w-50">
+                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/AIB-SL02.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+                    <div class="portfolio-item-caption d-flex position-absolute h-50 w-50">
+                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/1.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+                    <div class="portfolio-item-caption d-flex position-absolute h-50 w-50">
+                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/LEG-OFF-SL.01.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+                    <div class="portfolio-item-caption d-flex position-absolute h-50 w-50">
+                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/slika%2001.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- aBAUT -->
+        <div class="container-fluid text-center" id="abaut" style="background:#D9853B; color:#ECECEA; text-align: justify" >
+            <h1 class="margin" style="color:">Abaut</h1>
+            <h3 class="margin">Obrazovanje
+•	Osnovna škola: „Branko Radičević“ u Popovcu 
+•	Srednja škola: Arhitektonsko-tehnička škola u Beogradu
+•	Osnovne akademske studije: Arhitektonski fakultet, Univerziteta  u Beogradu 
+•	Master akademske studije: Arhitektonski fakultet, Univerziteta  u Beogradu 
+
+Posedujem licencu za projektovanje i izvodjenje.
+
+Znanje na kompjuteru
+•	Auto Cad - odlično,
+•	3Ds Max – odlicno, 
+•	Sketch Up –veoma dobro, 
+•	Corel Draw – odlično
+•	MS Office paket - odlično
+
+Poznavanje jezika
+•	Engleski 
+•	Ruski 
+•	Italijanski - početni kurs 
+•	Nemacki - pocetni kurs
+
+Radno iskustvo
+“ARP” preduzeće za projektovanje i inžinjering D.O.O., arhitektonski biro, Beograd, Srbija, jun – jul, 2008. i oktobar 2009. – april 2016. godine:
+
+“Mib PROING” D.O.O., arhitektonski biro, Paraćin, Srbija, jul – avgust, 2008. godine:
+
+SZR “Golubović”, stolarska radnja, Šaludovac, Srbija, 2006. – 2017. godine:
+
+“S.A.B. ENTERIJERI” D.O.O. društvo za spoljnu trgovinu, inžinjering i projektovanje, kompanija za projektovanje i opremu enterijera, Beograd, Srbija, avgust 2010. – jun 2011. godine:
+
+Ministarstvo Odbrane Republike Srbije SMR UI Vojnograđevinski centar “Beograd”, Beograd, Srbija, od avgusta 2011. do septembra 2012. godine i od aprila 2016. do danas.
+
+SAMOSTALAN RAD - Davanje saveta i izrada idejnih projekata eksterijera i enterijera objekata – 2006. – 2017. godine:
+•	Izrada idejnih, glavnih i izvodjackih projekata izgradnje, dogradnje i rekonstrukcije objekata visokogradnje;
+•	pracenje rada na gradilistu – strucni nadzor; 
+•	Izrada projekata eneterijera;
+•	Izrada 3d modela.
+
+Autorizacije, objavljeni  radovi, konkursi, saradnje
+
+•	Koautorska izložba: RE… Stari I Novi Beograd , u okviru Radionice 2, na diplomskim akademskim studijama, na Internacionalnoj nedelji arhitekture (Bina 09), Urbanistički zavod, Beograd, jul 2009., polje istraživanja: Integretativna zaštita graditeljskog nasleđa
+•	Koautorska izložba: RE… Stari I Novi Beograd,  na Danima evropske baštine, Opština Novi Beograd, septembar 2009.godine, polje istraživanja: integretativna zaštita graditeljskog nasleđa
+•	Koautorski rad: Memorijalna grobnica u slavu svih Germana, u okviru Izbornog predmeta 1, na diplomskim akademskim studijama, studentski forum, januar 2009., polje istraživanja: istorija arhitekture i nacionalni identitet, teorija arhitekture
+•	Koautorski projekat: Sanacija, adaptacija i rekonstrukcija Arhitektonskog fakulteta , u okviru istoimenog izbornog predmeta na trećoj godini osnovnih akademskih studija, studentski forum, jun 2008., polje istraživanja: arhitektonsko inžinjerstvo, Integretativna zaštita graditeljskog nasleđa
+•	Učestvovanje na studentskim arhitektonskim konkursima Večernjih Novina
+•	Učestvovanje u projektima fakulteta: Radionica Budva maj 2008. i Dani Orisa,  Zagreb, oktobar 2008.
+•	3. nagrada na konkusu za rešenje enterijera škole jezika Berlitz
+•	Saradnja na studentskom konkursu za Idejno rešenje enetrijera kantine u kompaniji Coca-cola Hellenic, Beograd
+
+Interesovanja
+	Napredovanje na polju arhitekture, dizajn, fotografija, umetnost, putovanja, menadžment, enterijera
+
+Osobine
+	Komunikativna, vredna, ambiciozna, stručna, prijatna, kolegijalna, spremna za rad u timu, borbena....
+</h3>
+        </div>
+        <!-- Contact -->  
+        x
+        <div class="container-fluid text-center" id="contact" style="background:#74AFAD; color:#ECECEA">
+            <h1 class="margin">Contact</h1>
+            <small>Email me: </small><a href="mailto:marija_cka@yahoo.com">marija_cka@yahoo.com</a>
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">Petra Petrovica 10
+                        <br>Serbia, Belgrade</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-google-plus"></i>
+                </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-dribbble"></i>
+                </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
+                        <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Footer -->
+        <footer class="container-fluid text-center">
+            <p>&copy maripesic 2017</p>
+        </footer>
+</body>
+
 </html>
